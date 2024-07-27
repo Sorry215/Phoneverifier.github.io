@@ -122,12 +122,7 @@
       color: #EE4E4E;
     }
   </style>
-
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.gstatic.com 'sha256-9zQpE7Pcs22qGozzNg/w1pINI3fGmVkTBYxnow+5epc=';"> 
-<meta http-equiv="Referrer-Policy" content="no-referrer-when-downgrade">
-<meta http-equiv="X-Frame-Options" content="DENY">
 </head>
-
 <body>
   <div class="container">
     <h2>Phone Verification</h2>
@@ -300,16 +295,11 @@
     <p id="message"></p>
   </div>
 
-  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js" 
-          integrity="sha256-9zQpE7Pcs22qGozzNg/w1pINI3fGmVkTBYxnow+5epc=" 
-          crossorigin="anonymous"></script>
-  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"
-          integrity="sha256-WofZEZPp1oK/1m/W9jctSdF4z3PA9o9FRLQXS2c42wk=" 
-          crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
   <script>
-  
    var firebaseConfig = {
-  apiKey: "AIzaSyBlq0VYPcsDbqQqOhScLadZNXkRXRYkjO8",
+    apiKey: "AIzaSyBlq0VYPcsDbqQqOhScLadZNXkRXRYkjO8",
   authDomain: "phone-number-verifier-d5418.firebaseapp.com",
   projectId: "phone-number-verifier-d5418",
   storageBucket: "phone-number-verifier-d5418.appspot.com",
